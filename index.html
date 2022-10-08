@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico">
+    <title>Week 2 Lab</title>
+</head>
+<body>
+    <header>
+        <img src="images/Geisel_Library_1.jpg" alt="Library" >
+        <h1>Project X Meeting</h1>
+        <h3>10/7/2022, 2:00 PM</h3>
+        <hr>
+        <nav>
+            <a href="#checkin">Online Check-in</a>  |
+            <a href="#list">Attendance List</a>  |
+            <a href="#agenda">Meeting agenda</a>  |
+            <a href="#Pending">Pending Issue from last meeting</a>  |
+            <a href="#business">New Business</a>  |
+            <a href="#questions">Questions</a>  |
+            <a href="#audio">Audio Recording</a>  |
+            <a href="#video">Video Recording</a>  |
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="checkin">
+            <h2>Online Check-in</h2>
+            <img src="images/X.png" alt="X" >
+            <form>
+                <label for="username">Username:</label><br>
+                <input list="usernames"  id="username">
+                <datalist id="usernames">
+                    <option value="Jack"></option>
+                    <option value="Alex"></option>
+                    <option value="Olivia"></option>
+                    <option value="Isabella"></option>
+                    <option value="Charlotte"></option>
+                    <option value="Abigail"></option>
+                </datalist>
+                <br>
+                <label for="password">Password :</label><br>
+                <input type="text" id="password"><br>
+                <button>Check-in</button>
+            </form>
+        </section>
+        <hr>
+
+        <section id="list">
+            <h2>Attendance List</h2>
+            <ul>
+                <li>Jack</li>
+                <li>Alex</li>
+                <li>Olivia</li>
+                <li>Isabella</li>
+                <li>Charlotte</li>
+                <li>Abigail</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="agenda">
+            <h2>Meeting Agenda</h2>
+            <ol>
+                <li>Project Introduction</li>
+                <li>Project Progress</li>
+            </ol>
+        </section>
+        <hr>
+
+        <section id="Pending">
+            <h2>Pending Issue</h2>
+            <p> <b>Bugs</b> in the <strong>project</strong> are still <em>not fixed</em></p>
+            <select id="bug">
+                <option>select a bug</option>
+                <optgroup label="front end">
+                    <option>text missing</option>
+                    <option>input box display error</option>
+                </optgroup>
+                <optgroup label="back end">
+                    <option>No response to input</option>
+                    <option>Unable to accept form</option>
+                </optgroup>
+            </select>
+        </section>
+        <hr>
+
+        <section id="business">
+            <h2>New Business</h2>
+            <div><span>Project Y</span></div>
+        </section>
+        <hr>
+
+        <section id="questions">
+            <h2>Questions</h2>
+            <form>
+                <fieldset>
+                    <legend>(Q)</legend>
+                    <div>Question type</div>
+                    <input type="radio" id="1" name="Q" value="personal">
+                    <label for="1">personal</label>
+                    <input type="radio" id="2" name="Q" value="project">
+                    <label for="2">project</label>
+                    <input type="radio" id="3" name="Q" value="other">
+                    <label for="3">other</label><br>
+                    <label for="txt">-></label><br>
+                    <textarea id ="txt">Enter your question here</textarea><br>
+                    <button><i>Submit</i></button>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+
+        <section id="audio">
+            <h2>Audio Recording for the meeting</h2>
+            <audio controls>
+                <source src="audio/dreams.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <hr>
+
+        <section id="video">
+            <h2>Video Recording of the meeting</h2>
+            <video width="320" height="240" controls>
+                <source src="video/ucsd.mp4" type="video/mp4">
+            </video>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <details>
+            <summary>Contact Details</summary>
+            <p> 1(234)-567-890</p>
+        </details>
+        <p><b>CSE 110 2022 Fall Week2 Lab</b></p>
+    </footer>
+</body>
+</html>
