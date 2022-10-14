@@ -1,5 +1,4 @@
-# Lab 2 - Starter
-Week 1  
-https://zijiansuucsd.github.io/  
-Week 2  
-https://zijiansuucsd.github.io/Lab2_Starter/  
+# Lab 3 - 
+
+Week 3  
+https://zijiansuucsd.github.io/fa22-cse110-lab3
