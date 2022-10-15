@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico">
-    <title>Week 2 Lab</title>
+    <title>Week 3 Lab</title>
+    <link rel="stylesheet" type="text/css" href="my.css" >
 </head>
 <body>
     <header>
-        <img src="images/Geisel_Library_1.jpg" alt="Library" >
+        <img src="images/Geisel_Library_1.jpg" alt="Library">
+        <br>
         <h1>Project X Meeting</h1>
-        <h3>10/7/2022, 2:00 PM</h3>
+        <h3 id = date>10/7/2022, 2:00 PM</h3>
         <hr>
         <nav>
             <a href="#checkin">Online Check-in</a>  |
@@ -41,7 +43,7 @@
                 <br>
                 <label for="password">Password :</label><br>
                 <input type="text" id="password"><br>
-                <button>Check-in</button>
+                <button id="check">Check-in</button>
             </form>
         </section>
         <hr>
@@ -86,7 +88,12 @@
 
         <section id="business">
             <h2>New Business</h2>
-            <div><span>Project Y</span></div>
+            <div id="projects">
+                <div class="Y"><span>Project Y</span></div>
+                <div class="Z">Project Z</div>
+                <div class="V">Project V</div>
+            </div>
+
         </section>
         <hr>
 
@@ -127,9 +134,10 @@
         <hr>
     </main>
     <footer>
-        <details>
+        <details id="contact">
             <summary>Contact Details</summary>
             <p> 1(234)-567-890</p>
+            <a href="https://ucsd.edu/" target="_blank">Visit UCSD</a>
         </details>
         <p><b>CSE 110 2022 Fall Week2 Lab</b></p>
     </footer>

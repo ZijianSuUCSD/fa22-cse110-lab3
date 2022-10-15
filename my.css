@@ -1,0 +1,127 @@
+/*CSS file for LAB 3*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0%;
+}
+a[target]{
+    background-color: aliceblue;
+}
+
+nav>a:hover{
+    color: red;
+}
+nav>a:active{
+    background-color: aliceblue;
+}
+
+nav a{
+    background-color: rgb(111, 126, 167);
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(147, 177, 211);  
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 59, 78);
+    padding: 1mm;
+    text-decoration: solid;
+    text-align: left;
+    display:inline-block;
+}
+
+summary + p {
+    color: rgb(82, 133, 72);
+}
+
+label ~ input {
+    background-color: rgb(204, 188, 224);
+}
+ 
+div.Z{
+    background-color: rgb(214, 192, 201);
+}
+
+
+h2{
+    font-family: 'Silkscreen', cursive;
+}
+body{
+    background-color: rgb(207, 219, 238);
+}
+
+#date{
+    padding: 1em;
+}
+
+nav{
+    margin: 10px 10px 10px 10px;
+    padding: 0.2cm 0.2cm 0.2cm 0.2cm;
+    /*border: 0.1rem solid rgb(147, 154, 173);*/
+    border-style:double;
+    border-color: #FFF;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    flex-basis: auto;
+}
+
+fieldset{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 3px;
+    border-width: 0.5rem;
+    border-radius: 1ex;
+    border-style:double;
+    border-color: rgb(66, 81, 122);
+    width: 80%;
+    height: 90%;
+}
+
+footer{
+    position: relative;
+    display: block;
+    border: 0ch;
+    color: hsl(hue, saturation, lightness);
+}
+
+#contact{
+    position: static;
+}
+
+#projects{
+    display: grid;
+    grid-auto-columns: 90px;
+    grid-auto-rows: 30px;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.Y{
+    grid-column-end: auto;
+    max-width: fit-content;
+    min-width: none;
+}
+
+section, footer{
+    margin-left: 10px;
+}
+
+@media all and (max-width:699px){
+    nav{
+        flex-direction: column;
+    }
+}
+@media all and (min-width:960px){
+    nav{
+        flex-direction: row;
+    }
+}
+
